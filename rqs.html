@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta name="description" content="Proyecto Gestor de Proyectos">
+		<meta name="autor" content="Carlos Enrique Sánchez Zavala">
+		<meta name="description" content="Gestor de Proyectos">
+  		<meta name="keywords" content="HTML,css,DB,UMl">
+		<meta name="copyright" content="(C)Charly Sz">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="shortcut icon" href="escom.ico">
+		<link rel="stylesheet" type="text/css" href="default.css"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<title>Gestormorfismo</title>
+	</head>
+	<body class="fondo">
+		<header>
+			<h1 class="title texto_animado">Gestormorfismo</h1>
+			<div class="botton fondo" >
+				<a href="index.html"><span>Introducción</span></a>
+				<a class="den" href="rqs.html"><span>Requerimientos</span></a>
+			</div>
+		</header>
+		<div class="section1">
+			<p class="parrafo">
+				Se plantea el desarrollo de un sistema que permita administrar información sobre proyectos, los colaboradores, fechas de entrega y tareas asignadas.<br><br>
+				Gestormofismo una de sus funciones principales de la cuales se destaca es la facilidad de administrar proyectos, la integración de un equipo de trabajo, administración de tareas asignadas, los recursos dedicados y algunas de las relaciones que deben prevalecer en este sistema son:<br>
+			</p>
+			<ul class="primera">
+				<li>
+					Un proyecto puede tener varias tareas.
+				</li>
+				<li>
+					Una tarea puede ser desarrollada por uno o más integrantes de un equipo.
+				</li>
+				<li>
+					Una tarea puede requerir de recursos.
+				</li>
+				<li>
+					Un proyecto puede tener asignados o requeridos varios recursos.
+				</li>
+				<li>
+					Un miembro del equipo puede tener uno o varias tareas encomendadas.
+				</li>
+				<li>
+					Se tiene una tarea en un determinado tiempo.
+				</li>
+			</ul>
+			<p class="parrafo">
+				Se necesita permitir a los usuarios del sistema:
+			</p>
+			<ul class="primera">
+				<li>
+					Gestión de proyectos.
+				</li>
+				<li>
+					Gestión de usuarios.
+				</li>
+				<li>
+					Gestión de equipos.
+				</li>
+				<li>
+					Gestión de tareas:
+					<ol>
+						<li>Completada.</li>
+						<li>Registro del progreso.</li>
+						<li>Asignada a.</li>
+					</ol>
+				</li>
+				<li>
+					Obtener reporte de las tareas asignadas y completadas a tiempo y destiempo de los integrantes de los equipos, por proyecto o en general.
+				</li>
+				<li>
+					Informar a los integrantes de un equipo que tareas tiene asignadas y pendientes.
+				</li>
+			</ul>
+
+			<h1>Requerimientos funcionales</h1>
+			<ul class="primera">
+				<li>RF1. Tener un identificador único de proyectos.</li>
+				<li>RF2. Cada integrante del proyecto debe tener su identificador único.</li>
+				<li>RF3. El sistema presentará las tareas a todos los integrantes.</li>
+				<li>RF4. El sistema permitirá crear tareas con fechas límites.</li>
+				<li>RF5. Los proyectos tendrán asignación de recursos.</li>
+				<li>RF6. Se tendrá un apartado de recursos necesarios para cada proyecto.</li>
+				<li>RF7. Cada proyecto se dividirá en etapas, cada etapa debe tener su descripción, tiempo de desarrollo y tiempo de implementación.</li>
+				<li>RF8. El sistema deberá guardar la información de cada proyecto.</li>
+				<li>RF9. Cada conclusión de etapa será confirmada por el jefe de proyecto.</li>
+				<li>RF10. Cada proyecto debe tener más de dos integrantes.</li>
+			</ul>
+			<h1>Requerimientos no funcionales</h1>
+			<ul class="primera">
+				<li>RNF1. Debe de tener compatibilidad con todos los navegadores web.</li>
+				<li>RNF2. Debe ser ajustable con cualquier dispositivo que puede acceder a los navegadores we.</li>
+				<li>RNF3. Debe tener un registro de todo lo que se haga en el avance de proyecto.</li>
+				<li>RNF4. Interfaz amigable con el usuario.</li>
+				<li>RNF5. La seguridad de ingreso de los usuarios será encriptada en Secure Hash Algortithm (SHA).</li>
+				<li>RNF6. Solo se admite una sesión por cada usuario al instante.</li>
+				<li>RNF7. Ningún registro se puede eliminar.</li>
+				<li>RNF8. Los registros podrán ser modificados únicamente por el administrador.</li>
+				<li>RNF9. Los registros modificados se verán reflejados en la base de datos.</li>
+				<li>RNF10. Se tendrá un listado de tareas por cada proyecto.</li>
+				<li>RNF11. Cada integrante con una tarea asignada solo verá las tareas que tiene asignadas</li>
+				<li>RFN12. El administrador o los administradores podrán gestionar los equipos de trabajo.</li>
+			</ul>
+			<h1>Requerimientos de sistema</h1>
+			<ul class="primera">
+				<li>RS1. Debe tener un administrador de base de datos.</li>
+				<li>RS2. El sistema debe de tener colores llamativos.</li>
+				<li>RS3. El sistema no debe de tardar en gestionar una consulta más de 600ms.</li>
+				<li>RS4. El sistema tendrá un máximo de 50 usuarios por proyecto.</li>
+				<li>RS5. En el sistema podrán subir los archivos de cada proyecto.</li>
+			</ul>			
+		</div>
+	</body>
+	<footer>
+		<div class="pie">
+			<p class="con">
+				Gestormorfismo (2021,2CV13)
+			</p>
+		</div>
+	</footer>
+</html>
