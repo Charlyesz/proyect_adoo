@@ -1,692 +1,599 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Gestormosfismo</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Gestormosfismo</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/escom.png" rel="icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/escom.png" rel="icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo">
+          <a href="index.html">Gestormorfismo<span>.</span></a>
+        </h1>
 
-
-</head>
-
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="index.html">Gestormorfismo<span>.</span></a></h1>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#intro">Introducción</a></li>
-          <li class="dropdown nav-link scrollto"><a href="#rec"><span>Requerimientos</span> <i
-                class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#rec_fun">Funcionales</a></li>
-              <li><a href="#rec_no_fun">No funcionales</a></li>
-              <li><a href="#rec_sis">Por sistema</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#interacion">Interaciones</a></li>
-          <li><a class="nav-link scrollto" href="#diagramas">Diagramas</a></li>
-          <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <h1><span>Gestormorfismo</span></h1>
-      <h2 class="text-align">Plantea el desarrollo de un sistema que permite administrar información sobre proyectos,
-        colaboradores, fechas de entrega y tareas asignadas.</h2>
-      <div class="d-flex">
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#intro">Introducción</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#rec">Especificaciones</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#diagramas"
+                >Modelos de Diseño</a
+              >
+            </li>
+            <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
       </div>
-    </div>
-  </section>
+    </header>
+    <!-- End Header -->
 
-  <main id="main">
-
-    <!-- Introducción -->
-    <section id="intro" class="featured-services">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <p>Gestormorfismo destaca por su facilidad de administrar proyectos, integración de equipo de trabajo,
-            administración de tareas asignadas, recursos didácticos y algunas de las relaciones que prevalecen en el
-            sistema son:</p>
-        </div>
-
-        <div class="row">
-
-          <div></div>
-
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bi bi-diagram-3"></i></div>
-              <p class="description text-align">
-                <li class="text-align">Un proyecto puede tener varias tareas.</li>
-                <li class="text-align">Una tarea puede ser desarrollada por uno o más integrantes de un equipo.</li>
-                <li class="text-align">Una tarea puede requerir de recursos.</li>
-                <li class="text-align">Un proyecto puede tener asignados o requeridos varios recursos.</li>
-                <li class="text-align">Un miembro del equipo puede tener uno o varias tareas encomendadas.</li>
-                <li class="text-align">Se tiene una tarea en un determinado tiempo.</li>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title">Se necesita permitir a los usuarios del sistema:</h4>
-              <p class="description">
-                <li class="text-align">Gestión de proyectos.</li>
-                <li class="text-align">Gestión de usuarios.</li>
-                <li class="text-align">Gestión de equipos.</li>
-                <li class="text-align">Gestión de tareas:
-                  <ol>
-                    <li class="text-align">Completada.</li>
-                    <li class="text-align">Registro del progreso.</li>
-                    <li class="text-align">Asignada a.</li>
-                  </ol>
-                </li>
-                <li class="text-align">Obtener reporte de las tareas asignadas y completadas a tiempo y destiempo de los
-                  integrantes de los
-                  equipos, por proyecto o en general.</li>
-                <li class="text-align">Informar a los integrantes de un equipo que tareas tiene asignadas y pendientes.
-                </li>
-              </p>
-            </div>
-          </div>
-
-        </div>
-
+    <section id="hero" class="d-flex align-items-center">
+      <div class="container" data-aos="zoom-out" data-aos-delay="100">
+        <h1><span>Gestormorfismo</span></h1>
+        <h2 class="text-align">
+          Plantea el desarrollo de un sistema que permite administrar
+          información sobre proyectos, colaboradores, fechas de entrega y tareas
+          asignadas.
+        </h2>
+        <div class="d-flex"></div>
       </div>
     </section>
 
-    <!--Requerimientos-->
-    <section id="rec" class="about section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Requerimientos</h2>
-          <h3>En este apartado mostraremos los respectivos <span>requerimientos</span> del Gestormofismo.</h3>
-          <p></p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/requisitos.webp" class="img-fluid" alt="">
-          </div>
-          <div id="rec_fun" class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center"
-            data-aos="fade-up" data-aos-delay="100">
-            <h3 class="text-center">Requerimientos funcionales.</h3>
-            <p class="text-align">Enunciados sobre servicios que el sistema debe proveer. Función o componente que el
-              sistema debe llevar a cabo.</p>
-            <ul>
-              <li>
-                <i class="bi bi-arrow-right"></i>
-                <div><br>
-                  <p>RF1. Tener un identificador único de proyectos.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-arrow-right"></i>
-                <div>
-                  <br>
-                  <p>RF2. Cada integrante del proyecto debe tener su identificador único.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-arrow-right"></i>
-                <div><br>
-                  <p>RF3. El sistema presentará las tareas a todos los integrantes.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-arrow-right"></i>
-                <div><br>
-                  <p>RF4. El sistema permitirá crear tareas con fechas límites.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-arrow-right"></i>
-                <div><br>
-                  <p>RF5. Los proyectos tendrán asignación de recursos.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-arrow-right"></i>
-                <div><br>
-                  <p>RF6. Se tendrá un apartado de recursos necesarios para cada proyecto.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-arrow-right"></i>
-                <div><br>
-                  <p>RF7. Cada proyecto se dividirá en etapas, cada etapa debe tener su descripción,
-                    tiempo de desarrollo y tiempo de implementación.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-arrow-right"></i>
-                <div><br>
-                  <p>RF8. El sistema deberá guardar la información de cada proyecto.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-arrow-right"></i>
-                <div><br>
-                  <p>RF9. Cada conclusión de etapa será confirmada por el jefe de proyecto.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-arrow-right"></i>
-                <div><br>
-                  <p>RF10. Cada proyecto debe tener más de dos integrantes.</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="#rec_no_fun" class="about skills">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row skills-content">
-
-          <div id="rec_no_fun" class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center"
-            data-aos="fade-up" data-aos-delay="100">
-            <h3 class="text-center">Requerimientos <span>no funcionales</span>.</h3>
-            <p class="text-align">Limitaciones sobre los servicios o funciones que brinda el sistema. Restricciones de
-              tiempos,
-              procesos de desarrollo y estándares.</p>
-            <ul>
-              <li>
-                <i class="bi bi-backspace-reverse"></i>
-                <div><br>
-                  <p>RNF1. Debe de tener compatibilidad con todos los navegadores web.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-backspace-reverse"></i>
-                <div>
-                  <br>
-                  <p>RNF2. Debe ser ajustable con cualquier dispositivo que puede acceder a los navegadores we.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-backspace-reverse"></i>
-                <div><br>
-                  <p>RNF3. Debe tener un registro de todo lo que se haga en el avance de proyecto.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-backspace-reverse"></i>
-                <div><br>
-                  <p>RNF4. Interfaz amigable con el usuario.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-backspace-reverse"></i>
-                <div><br>
-                  <p>RNF5. La seguridad de ingreso de los usuarios será encriptada en Secure Hash Algortithm (SHA).</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-backspace-reverse"></i>
-                <div><br>
-                  <p>RNF6. Solo se admite una sesión por cada usuario al instante.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-backspace-reverse"></i>
-                <div><br>
-                  <p>RNF7. Ningún registro se puede eliminar.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-backspace-reverse"></i>
-                <div><br>
-                  <p>RNF8. Los registros podrán ser modificados únicamente por el administrador.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-backspace-reverse"></i>
-                <div><br>
-                  <p>RNF9. Los registros modificados se verán reflejados en la base de datos..</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-backspace-reverse"></i>
-                <div><br>
-                  <p>RNF10. Se tendrá un listado de tareas por cada proyecto..</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-backspace-reverse"></i>
-                <div><br>
-                  <p>RNF11. Cada integrante con una tarea asignada solo verá las tareas que tiene asignadas.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-backspace-reverse"></i>
-                <div><br>
-                  <p>RFN12. El administrador o los administradores podrán gestionar los equipos de trabajo.</p>
-                </div>
-              </li>
-            </ul>
+    <main id="main">
+      <!-- Introducción -->
+      <section id="intro" class="featured-services">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <p>
+              Gestormorfismo destaca por su facilidad de administrar proyectos,
+              integración de equipo de trabajo, administración de tareas
+              asignadas, recursos didácticos y algunas de las relaciones que
+              prevalecen en el sistema son:
+            </p>
           </div>
 
-        </div>
-
-      </div>
-    </section>
-
-
-    <section id="rec_sis" class="clients section-bg">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="row about">
-
-          <div id="rec_sis" class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center"
-            data-aos="fade-up" data-aos-delay="100">
-            <h3 class="text-center">Requerimientos de <span>sistema</span>.</h3>
-            <p class="text-align">Descripción más detallada de las funciones del sistema, de servicios y restricciones
-              operacionales.</p>
-            <ul>
-              <li>
-                <i class="bi bi-caret-right-fill"></i>
-                <div><br>
-                  <p>RS1. Debe tener un administrador de base de datos.</p>
+          <div class="row">
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+            >
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon">
+                  <i class="bi bi-diagram-3"> Declarativas</i>
                 </div>
-              </li>
-              <li>
-                <i class="bi bi-caret-right-fill"></i>
-                <div>
-                  <br>
-                  <p>RS2. El sistema debe de tener colores llamativos.</p>
+                <p class="description">
+                  Un proyecto puede tener varias tareas.<br />
+                  Una tarea puede ser desarrollada por uno o más integrantes de
+                  un equipo.<br />
+                  Una tarea puede requerir de recursos.<br />
+                  Un proyecto puede tener asignados o requeridos varios
+                  recursos.<br />
+                  Un miembro del equipo puede tener uno o varias tareas
+                  encomendadas.<br />
+                  Se tiene una tarea en un determinado tiempo.<br />
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+            >
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon">
+                  <i class="bx bx-file"> Necesidades</i>
                 </div>
-              </li>
-              <li>
-                <i class="bi bi-caret-right-fill"></i>
-                <div><br>
-                  <p>RS3. El sistema no debe de tardar en gestionar una consulta más de 600ms.</p>
+                <h4 class="title">
+                  <a>Se necesita permitir a los usuarios del sistema:</a>
+                </h4>
+                <p class="description">
+                  Gestión de proyectos.<br />
+                  Gestión de usuarios.<br />
+                  Gestión de equipos.<br />
+                  Gestión de tareas:<br />
+                  1. Completada.<br />
+                  2. Registro del progreso.<br />
+                  3. Asignada a.<br />
+                  Obtener reporte de las tareas asignadas y completadas a tiempo
+                  y destiempo de los integrantes de los equipos, por proyecto o
+                  en general.<br />
+                  Informar a los integrantes de un equipo que tareas tiene
+                  asignadas y pendientes.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+            >
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon">
+                  <i class="bx bx-file"> Diseños</i>
                 </div>
-              </li>
-              <li>
-                <i class="bi bi-caret-right-fill"></i>
-                <div><br>
-                  <p>RS4. El sistema tendrá un máximo de 50 usuarios por proyecto.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-caret-right-fill"></i>
-                <div><br>
-                  <p>RS5. En el sistema podrán subir los archivos de cada proyecto.</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- termina requerimientos -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="interacion" class="services">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Interaciones</h2>
-          <h3>Se mostraran todas las <span>interaciones</span> del proyecto.</h3>
-          <p>Interación 0<br>Descripción del proyecto:</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-clipboard"></i></div>
-              <h4 id="vision">Visión del proyecto:</h4>
-              <p>
-                <li class="text-align">Ideal para estudiantes, profesores, empresas, para la ayuda de administrar
-                  información y los recursos para el desarrollo de proyectos. <strong>Gestormorfismo</strong> es un
-                  sistema de
-                  organización que permite guardar información de los colaboradores, fechas de entrega y asignaciones de
-                  las tareas. Gestormorfismo a diferencia de otros gestores, tiene la alternativa sencilla e intuitiva
-                  para el uso del usuario.</li>
-                <li class="text-align">Perspectiva del producto.</li>
-                <li class="text-align">Funciones del producto.</li>
-              </p>
+                <h4 class="title">
+                  <a>Diseños UML</a>
+                </h4>
+                <p class="description">
+                  Los diseños del sistema tienen las bases del lenguaje UML.<br />
+                  UML puede utilizarse para especificar modelos en cualquier
+                  proceso de desarrollo de software, siempre que al usarlo se
+                  respete su semántica y propósito, es especialmente en aquellos
+                  modelos de proceso orientados a objetos.
+                </p>
+              </div>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
-            data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-clipboard"></i></div>
-              <h4 id="objetos">Objetivos del proyecto.<br>Definición de Stakeholders:</h4>
-              <p>
-                <li class="text-align">Clientes.</li>
-                <li class="text-align">Actores.</li>
-                <li class="text-align">Equipor de desarrollo.</li>
-              </p>
-            </div>
+      <!--Requerimientos-->
+      <section id="rec" class="about section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Especificaciones</h2>
+            <h3>
+              En este apartado mostraremos las
+              <span>especificaciones</span> del Gestormofismo.
+            </h3>
+            <p></p>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
-            data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-clipboard"></i></div>
-              <h4 id="modelo">Modelo de procesos de desarrollo:</h4>
-              <p>
-                <li class="text-align">Metodología de desarrollo.</li>
-                <li class="text-align">El cronograma se exprese:
-                  <ul>
-                    <li class="text-align">Número de interacciones y duración de las interacciones.</li>
-                    <li class="text-align">Hitos y artefactos del proyecto.</li>
-                  </ul>
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+              <img src="assets/img/requisitos.webp" class="img-fluid" alt="" />
+            </div>
+            <div
+              id="rec_fun"
+              class="
+                col-lg-6
+                pt-4 pt-lg-0
+                content
+                d-flex
+                flex-column
+                justify-content-center
+              "
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h3 class="text-center">
+                En el siguiente link se muestran todas las especificación del
+                sistema
+              </h3>
+              <ul>
+                <li>
+                  <i class="bi bi-file-earmark-pdf">
+                    <a href="assets/docs/WhiteDocument.pdf">Documento</a>
+                  </i>
                 </li>
-              </p>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- termina requerimientos -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <section id="diagramas" class="portfolio">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Modelo de diseño</h2>
+            <h3>Mostraremos los <span>diagramas</span>.</h3>
+            <p>
+              En el contexto de desarrollo de sistemas de software, la
+              arquitectura del sistema puede percibirse a través de cinco vistas
+              (4+1) complementarias, importantes para:
+            </p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">Todos los diseños</li>
+                <li data-filter=".filter-logica">Vista lógica</li>
+                <li data-filter=".filter-despliegue">Vista de despliegue</li>
+                <li data-filter=".filter-procesos">Vista de procesos</li>
+                <li data-filter=".filter-fisica">Vista física</li>
+                <li data-filter=".filter-escenarios">Vista de escenarios</li>
+                <li data-filter=".filter-faz_grafica">Interfaz gráfica</li>
+              </ul>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-clipboard"></i></div>
-              <h4 id="modelo">Modelo de processos de desarrollo:</h4>
-              <p>
-                <li class="text-align">Herramientas de software empleadas:
-                  <ul>
-                    <li class="text-align">Lenguajes de programación.</li>
-                    <li class="text-align">sistema de gestor de base de datos.</li>
-                    <li class="text-align">Software de modelado para el UML.</li>
-                    <li class="text-align">Cualquier otro software empleado.</li>
-                  </ul>
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <!--Driagrama de casos de uso-->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-escenarios">
+              <img
+                src="assets/img/Diagramas/casos_de_uso.png"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Diagrama de Casos de Uso</h4>
+                <p>
+                  Es un diagrama que muestra un conjunto de casos de uso,
+                  actores y sus relaciones.
+                </p>
+              </div>
+            </div>
+
+            <!--Driagrama de actividades-->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-procesos">
+              <img
+                src="assets/img/Diagramas/actividades.jpeg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Diagrama de Actividades</h4>
+                <p class="text-align">
+                  Es un tipo de diagrama de flujo que destaca la actividad que
+                  tiene lugar a lo largo del tiempo.
+                </p>
+              </div>
+            </div>
+
+            <!--Driagrama de clases-->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-logica">
+              <img
+                src="assets/img/Diagramas/clases.png"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Diagrama de Clases</h4>
+                <p class="text-align">
+                  Un diagrama de clases, representa un conjunto de clases,
+                  interfaces y colaboraciones, así como las relaciones entre
+                  ella. Los diagramas de clases son los mas habituales en el
+                  modelado de sistemas orientados a objetos.
+                </p>
+              </div>
+            </div>
+
+            <!--Driagrama de paquetes-->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-despliegue">
+              <img
+                src="assets/img/Diagramas/paquetes.jpeg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Diagrama de Paquetes</h4>
+                <p class="text-align">
+                  Visualizar, especificar, construir y documentar grandes
+                  sistemas requiere manejar una gran cantidad de clases,
+                  interfaces, componentes, nodos, diagramas y otros elementos.
+                </p>
+              </div>
+            </div>
+
+            <!--Driagrama de objetos-->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-logica">
+              <img
+                src="assets/img/Diagramas/objetos.jpeg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Diagrama de Objetos</h4>
+                <p>
+                  Una instancia es una manifestación concreta de una abstracción
+                  a la que se puede aplicar un conjunto de operaciones y que
+                  tiene un estado que almacena los efectos de las
+                  operaciones.<br />
+                  Instancia y objeto son en gran parte sinónimos.
+                </p>
+              </div>
+            </div>
+
+            <!--Driagrama de maquina de estados-->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-logica">
+              <img
+                src="assets/img/Diagramas/maquina_estados.jpeg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Diagrama de Máquinas de Estados.</h4>
+                <p>
+                  En UML algunos <strong>aspectos dinámicos</strong> de un
+                  sistema se pueden modelar utilizando
+                  <strong>máquinas de estado</strong>.
+                </p>
+              </div>
+            </div>
+
+            <!--Driagrama de interaccion-->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-logica">
+              <img
+                src="assets/img/Diagramas/interaccion.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Diagrama de Interacción.</h4>
+                <p>
+                  Como ya se ha mencionado, en UML los
+                  <strong>aspectos estáticos</strong> del sistema se pueden
+                  representar por medio diagramas de clases y diagramas de
+                  objetos.
+                </p>
+              </div>
+            </div>
+
+            <!--Driagrama de componentes-->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-despligue">
+              <img
+                src="assets/img/Diagramas/componentes.jpeg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Diagrama de Componentes</h4>
+                <p>
+                  Se puede construir una aplicación como una unidad grande y
+                  monolítica, pero que será rígida y difícil de modificar a
+                  medida que lo requieran nuevas necesidades.
+                </p>
+              </div>
+            </div>
+
+            <!--Driagrama de despliegue-->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-fisica">
+              <img
+                src="assets/img/Diagramas/despliegue.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Diagrama de Despliegue.</h4>
+                <p>
+                  El despliegue es el término que se refiere a "instalar todos
+                  los componentes del software que se ha construido en su
+                  versión ejecutable a un ambiente de ejecución, configurarlos y
+                  prepararlos para que el sistema pueda empezar a operar en ese
+                  ambiente".
+                </p>
+              </div>
+            </div>
+
+            <!--Vista login-->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-faz_grafica">
+              <img
+                src="assets/img/Diagramas/login.jpeg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Inicio</h4>
+                <p>Pagina principal</p>
+              </div>
+            </div>
+
+            <!--Vista Proyect-->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-faz_grafica">
+              <img
+                src="assets/img/Diagramas/project.jpeg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Proyectos</h4>
+                <p>Pagina de los proyectos</p>
+              </div>
+            </div>
+
+            <!--Vista Usuarios-->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-faz_grafica">
+              <img
+                src="assets/img/Diagramas/users.jpeg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Registros</h4>
+                <p>Pagina en donde los usuarios se registran.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Section -->
+
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Equipo de desarroollo</h2>
+            <h3>Presentamos el <span>equipo</span></h3>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/karen.jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Karen Soledad</h4>
+                  <span>Desarrollador de Software</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/jorge.jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Jorge Ochoa</h4>
+                  <span>Desarrollador de Software</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/daniel.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Daniel Hernández</h4>
+                  <span>Desarrollador de Software</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/carlos.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Carlos Sánchez</h4>
+                  <span>Desarrollador de Software</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Team Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i><a href="#hero">Home</a>
                 </li>
-              </p>
+                <li>
+                  <i class="bx bx-chevron-right"></i
+                  ><a href="#intro">Introducción</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i
+                  ><a href="#rec">Especificaciones</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i
+                  ><a href="#diagramas">Diseños</a>
+                </li>
+              </ul>
             </div>
           </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="diagramas" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Diagramas</h2>
-          <h3>Mostraremos los <span>diagramas</span>.</h3>
-          <p>En el contexto de desarrollo de sistemas de software, la arquitectura del sistema puede percibirse a través
-            de cinco vistas (4+1) complementarias, importantes para:</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Todos los diagramas</li>
-              <li data-filter=".filter-logica">Vista lógica</li>
-              <li data-filter=".filter-despliegue">Vista de despliegue</li>
-              <li data-filter=".filter-procesos">Vista de procesos</li>
-              <li data-filter=".filter-fisica">Vista física</li>
-              <li data-filter=".filter-escenarios">Vista de escenarios</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <!--Driagrama de casos de uso-->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-escenarios">
-            <img src="assets/img/Diagramas/casos_de_uso.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Diagrama de Casos de Uso</h4>
-              <p>Es un diagrama que muestra un conjunto de casos de uso, actores y sus relaciones.</p>
-            </div>
-          </div>
-
-          <!--Driagrama de actividades-->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-procesos">
-            <img src="assets/img/Diagramas/actividades.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Diagrama de Actividades</h4>
-              <p class="text-align">Es un tipo de diagrama de flujo que destaca la actividad que tiene lugar a lo largo
-                del tiempo.</p>
-            </div>
-          </div>
-
-          <!--Driagrama de clases-->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-logica">
-            <img src="assets/img/Diagramas/clases.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Diagrama de Clases</h4>
-              <p class="text-align">Un diagrama de clases, representa un conjunto de clases, interfaces y
-                colaboraciones, así como las
-                relaciones entre ella. Los diagramas de clases son los mas habituales en el modelado de sistemas
-                orientados a objetos.</p>
-            </div>
-          </div>
-
-          <!--Driagrama de paquetes-->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-despliegue">
-            <img src="assets/img/Diagramas/paquetes.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Diagrama de Paquetes</h4>
-              <p class="text-align">Visualizar, especificar, construir y documentar grandes sistemas requiere manejar
-                una gran cantidad de
-                clases, interfaces, componentes, nodos, diagramas y otros elementos.</p>
-            </div>
-          </div>
-
-          <!--Driagrama de objetos-->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-logica">
-            <img src="assets/img/Diagramas/objetos.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Diagrama de Objetos</h4>
-              <p>Una instancia es una manifestación concreta de una abstracción a la que se puede aplicar un conjunto de
-                operaciones y que tiene un estado que almacena los efectos de las operaciones.<br>
-                Instancia y objeto son en gran parte sinónimos. </p>
-            </div>
-          </div>
-
-          <!--Driagrama de maquina de estados-->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-logica">
-            <img src="assets/img/portfolio/maquina_estados.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Diagrama de Máquinas de Estados.</h4>
-              <p>En UML algunos <strong>aspectos dinámicos</strong> de un sistema se pueden modelar utilizando
-                <strong>máquinas de estado</strong>.
-              </p>
-            </div>
-          </div>
-
-          <!--Driagrama de interaccion-->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-logica">
-            <img src="assets/img/portfolio/interacion.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Diagrama de Interacción.</h4>
-              <p>Como ya se ha mencionado, en UML los <strong>aspectos estáticos</strong> del sistema se pueden
-                representar por medio
-                diagramas de clases y diagramas de objetos.</p>
-            </div>
-          </div>
-
-          <!--Driagrama de componentes-->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-desplique">
-            <img src="assets/img/portfolio/componentes.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Diagrama de Componentes</h4>
-              <p>Se puede construir una aplicación como una unidad grande y monolítica, pero que será rígida y difícil
-                de modificar a medida que lo requieran nuevas necesidades.</p>
-            </div>
-          </div>
-
-          <!--Driagrama de despliegue-->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-fisica">
-            <img src="assets/img/portfolio/despliegue.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Diagrama de Despliegue.</h4>
-              <p>El despliegue es el término que se refiere a "instalar todos los componentes del software que se ha
-                construido en su versión ejecutable a un ambiente de ejecución, configurarlos y prepararlos para que el
-                sistema pueda empezar a operar en ese ambiente".</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Equipo de desarroollo</h2>
-          <h3>Presentamos el <span>equipo</span></h3>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/karen.jpeg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <h4>Karen Soledad</h4>
-                <span>Desarrollador de Software</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/jorge.jpeg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <h4>Jorge Ochoa</h4>
-                <span>Desarrollador de Software</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/daniel.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <h4>Daniel Hernández</h4>
-                <span>Desarrollador de Software</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/carlos.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <h4>Carlos Sánchez</h4>
-                <span>Desarrollador de Software</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
-
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i><a href="#hero">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="#intro">Introducción</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="#rec">Requerimientos</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="#interacion">Interaciones</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="#diagramas">Diagramas</a></li>
-            </ul>
-          </div>
-
         </div>
       </div>
-    </div>
 
-    <div class="container py-4">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Gestormorifsmo</span></strong>. All Rights Reserved
+      <div class="container py-4">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Gestormorifsmo</span></strong
+          >. All Rights Reserved
+        </div>
       </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer>
+    <!-- End Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
